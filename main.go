@@ -2,12 +2,12 @@ package main
 
 import (
 	"fmt"
-	"github.com/labstack/echo"
-	"quasar-fire-app/apm"
-	"quasar-fire-app/config"
-	_ "quasar-fire-app/docs"
-	"quasar-fire-app/providers"
-	"quasar-fire-app/router"
+	"github.com/ElvertMora/quasar-fire-app/apm"
+	"github.com/ElvertMora/quasar-fire-app/config"
+	_ "github.com/ElvertMora/quasar-fire-app/docs"
+	"github.com/ElvertMora/quasar-fire-app/providers"
+	"github.com/ElvertMora/quasar-fire-app/router"
+	"github.com/labstack/echo/v4"
 )
 
 var (

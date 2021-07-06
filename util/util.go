@@ -1,8 +1,8 @@
 package util
 
 import (
+	"github.com/ElvertMora/quasar-fire-app/controllers/request"
 	"math"
-	"quasar-fire-app/controllers/request"
 )
 
 var Satellites = []string{"Kenobi", "Skywalker", "Sato"}

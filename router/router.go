@@ -5,8 +5,8 @@ import (
 	"github.com/ElvertMora/quasar-fire-app/controllers"
 	_ "github.com/ElvertMora/quasar-fire-app/docs"
 	"github.com/ElvertMora/quasar-fire-app/enums"
-	"github.com/labstack/echo"
-	"github.com/labstack/echo/middleware"
+	"github.com/labstack/echo/v4"
+	"github.com/labstack/echo/v4/middleware"
 	echoSwagger "github.com/swaggo/echo-swagger"
 )
 

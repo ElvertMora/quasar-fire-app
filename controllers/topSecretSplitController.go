@@ -5,7 +5,7 @@ import (
 	"github.com/ElvertMora/quasar-fire-app/controllers/responses"
 	"github.com/ElvertMora/quasar-fire-app/interfaces"
 	"github.com/ElvertMora/quasar-fire-app/util"
-	"github.com/labstack/echo"
+	"github.com/labstack/echo/v4"
 	"net/http"
 )
 
