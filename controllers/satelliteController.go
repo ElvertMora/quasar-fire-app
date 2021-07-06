@@ -1,11 +1,11 @@
 package controllers
 
 import (
+	"github.com/ElvertMora/quasar-fire-app/controllers/request"
+	"github.com/ElvertMora/quasar-fire-app/interfaces"
 	"github.com/asdine/storm"
 	"github.com/labstack/echo"
 	"net/http"
-	"quasar-fire-app/controllers/request"
-	"quasar-fire-app/interfaces"
 )
 
 type SatelliteHandler struct {

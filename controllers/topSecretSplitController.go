@@ -1,12 +1,12 @@
 package controllers
 
 import (
+	"github.com/ElvertMora/quasar-fire-app/controllers/request"
+	"github.com/ElvertMora/quasar-fire-app/controllers/responses"
+	"github.com/ElvertMora/quasar-fire-app/interfaces"
+	"github.com/ElvertMora/quasar-fire-app/util"
 	"github.com/labstack/echo"
 	"net/http"
-	"quasar-fire-app/controllers/request"
-	"quasar-fire-app/controllers/responses"
-	"quasar-fire-app/interfaces"
-	"quasar-fire-app/util"
 )
 
 type TopSecretSplitHandler struct {

@@ -1,8 +1,8 @@
 package services
 
 import (
-	"quasar-fire-app/interfaces"
-	"quasar-fire-app/util"
+	"github.com/ElvertMora/quasar-fire-app/interfaces"
+	"github.com/ElvertMora/quasar-fire-app/util"
 )
 
 type trilaterationService struct {

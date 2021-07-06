@@ -1,7 +1,7 @@
 package apm
 
 import (
-	"quasar-fire-app/interfaces"
+	"github.com/ElvertMora/quasar-fire-app/interfaces"
 
 	"github.com/labstack/echo"
 	"github.com/labstack/gommon/log"

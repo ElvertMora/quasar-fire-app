@@ -1,11 +1,11 @@
 package providers
 
 import (
+	"github.com/ElvertMora/quasar-fire-app/controllers"
+	"github.com/ElvertMora/quasar-fire-app/router"
+	"github.com/ElvertMora/quasar-fire-app/server"
+	"github.com/ElvertMora/quasar-fire-app/services"
 	"go.uber.org/dig"
-	"quasar-fire-app/controllers"
-	"quasar-fire-app/router"
-	"quasar-fire-app/server"
-	"quasar-fire-app/services"
 )
 
 var Container *dig.Container

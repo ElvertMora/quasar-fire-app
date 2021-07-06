@@ -1,13 +1,13 @@
 package router
 
 import (
+	"github.com/ElvertMora/quasar-fire-app/apm"
+	"github.com/ElvertMora/quasar-fire-app/controllers"
+	_ "github.com/ElvertMora/quasar-fire-app/docs"
+	"github.com/ElvertMora/quasar-fire-app/enums"
 	"github.com/labstack/echo"
 	"github.com/labstack/echo/middleware"
 	echoSwagger "github.com/swaggo/echo-swagger"
-	"quasar-fire-app/apm"
-	"quasar-fire-app/controllers"
-	_ "quasar-fire-app/docs"
-	"quasar-fire-app/enums"
 )
 
 type Router struct {

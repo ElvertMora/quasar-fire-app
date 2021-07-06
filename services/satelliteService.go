@@ -1,10 +1,10 @@
 package services
 
 import (
+	"github.com/ElvertMora/quasar-fire-app/controllers/request"
+	"github.com/ElvertMora/quasar-fire-app/interfaces"
+	"github.com/ElvertMora/quasar-fire-app/util"
 	"github.com/asdine/storm"
-	"quasar-fire-app/controllers/request"
-	"quasar-fire-app/interfaces"
-	"quasar-fire-app/util"
 )
 
 const (

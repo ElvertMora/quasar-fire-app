@@ -1,7 +1,7 @@
 package apm
 
 import (
-	i "quasar-fire-app/interfaces"
+	i "github.com/ElvertMora/quasar-fire-app/interfaces"
 	"sync"
 )
 

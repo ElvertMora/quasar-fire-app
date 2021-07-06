@@ -1,7 +1,7 @@
 package interfaces
 
 import (
-	"quasar-fire-app/controllers/request"
+	"github.com/ElvertMora/quasar-fire-app/controllers/request"
 )
 
 type ITrilaterationService interface {
