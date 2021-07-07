@@ -43,6 +43,9 @@ func (h TopSecretHandler) GetMessages(c echo.Context) error {
 	m2 := req.Satellites[1].Message
 	m3 := req.Satellites[2].Message
 	message := h.messageService.GetMessage(m1, m2, m3)
+	if message == "" {
+		return echo.NewHTTPError(http.StatusBadRequest)
+	}
 	res := &responses.MessageResponse{
 		Message: message,
 	}

@@ -36,6 +36,10 @@ func (h TopSecretSplitHandler) GetMessage(c echo.Context) error {
 	m2 := satellites[1].Message
 	m3 := satellites[2].Message
 	message := h.messageService.GetMessage(m1, m2, m3)
+
+	if message == "" {
+		return echo.NewHTTPError(http.StatusBadRequest, "insufficient information ")
+	}
 	mapSatellites := util.GetMapDistancesFromSatellitesRecord(satellites)
 
 	res := &responses.MessageResponse{
